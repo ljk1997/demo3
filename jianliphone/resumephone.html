@@ -14,12 +14,12 @@
 			
 			<div class="cover" id="cover"><!--封面-->
 				<button class="btn1" onclick="on_fly1();">GoTo</button>
-				<div class="text" id="text">resume</div>
+				<div class="text" id="text"><a href="#123">resume</a></div>
 			</div>
 			
 			<div class="main" id="main"><!--正文-->
 				<div class="top">
-					<button class="btn1" onclick="on_fly2();">Back</button>
+					<button class="btn1" onclick="on_fly2();" name="123">Back</button>
 					<div class="information">
 						<div class="photo">
 							<img src="pictrue\daershou.jpg">
@@ -27,7 +27,6 @@
 						<div class="person">
 							姓名：大耳兽<br/>
 							生日：1997.07.24 | 所在城市：杭州 | 联系电话:1381979xxxx | 电子邮箱：92006xxxx@qq.com<br/>
-							简介：爷很萌
 						</div>
 					</div>
 				</div>
@@ -40,10 +39,6 @@
 					<div class="main2" id="main5" style="background-color:#f15b6c"><br/>技<br/>术<br/>特<br/>长</div>
 					<div class="main2" id="main6" style="background-color:#f15a22"><br/>自<br/>我<br/>评<br/>价</div>
 				</div>	
-				<div class="btn2area">
-				<button class="btn2" onclick="on_btn2();">Search More</button>
-				<button class="btn3" onclick="on_btn3();">Search Back</button>
-				</div>
 			</div>
 		</div>
 		<script type="text/javascript">
@@ -54,11 +49,11 @@
 				
 				var cover = document.getElementById("cover");
 				cover.style.transition = '1s';
-				cover.style.transform = 'translate(0px,-1670px)';
+				cover.style.transform = 'translate(0px,-670px)';
 				
 				var main = document.getElementById("main");
 				main.style.transition = '1s';
-				main.style.transform = 'translate(0px,-1670px)';
+				main.style.transform = 'translate(0px,-670px)';
 			}
 			function on_fly2(){
 				var flymove1 = document.getElementById("flymove");
