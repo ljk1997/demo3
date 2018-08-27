@@ -126,13 +126,6 @@ html,body{
 	font-weight:bold;
 	color:#fff;
 }
-.text:hover{
-	transition:1s;
-	transform:translate(-300px,-50px) rotateX(30deg) rotateY(15deg);
-	opacity:0.5;
-	font-size:280px;
-	border-radius:100px;
-}
 .top{
 	position:relative;
 	margin:0px auto;
