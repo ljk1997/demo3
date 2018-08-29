@@ -1,0 +1,48 @@
+@charset "utf-8"
+
+html,body{
+	border:0px;
+	padding:0px;
+}
+#left{
+	width:30%;
+	height:100%;
+	float:left;
+	background-color:#254665;
+	color:#fff;
+}
+#main{
+	width:70%;
+	height:100%;
+	float:right;
+	background-color:#eee;
+	color:#254665;
+}
+#photo{
+	margin:10px auto;
+	width:80%;
+	height:15%;
+	text-align:center;
+}
+#font1{
+	font-size:20px;
+	font-weight:bold;
+}
+#font2{
+	font-size:15px;
+}
+#hr1{
+	margin:0px;
+	margin-bottom:5px;
+	background-color:#000;
+}
+#main1{
+	font-size:30px;
+	text-align:center;
+	margin-left:10px;
+}
+#main2{
+	font-size:20px;
+	margin-left:10px;
+	margin-top:10px;
+}
