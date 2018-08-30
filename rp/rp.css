@@ -41,8 +41,25 @@ html,body{
 	text-align:center;
 	margin-left:10px;
 }
+#main3{
+	font-size:20px;
+	margin-left:10px;
+	margin-top:10px;
+	height:30px;
+	overflow:hidden;
+}
+#main3:hover{
+	height:80px;
+	overflow:auto;
+}
 #main2{
 	font-size:20px;
 	margin-left:10px;
 	margin-top:10px;
+	height:30px;
+	overflow:hidden;
+}
+#main2:hover{
+	height:250px;
+	overflow:auto;
 }
